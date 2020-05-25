@@ -1,5 +1,6 @@
 import { Action } from '@ngrx/store';
 import { Topping } from 'src/products/models/topping.model';
+import { type } from 'os';
 
 export const LOAD_TOPPINGS = '[Products] Load Toppings';
 export const LOAD_TOPPINGS_FAIL = '[Products] Load Toppings Fail';
@@ -19,5 +20,4 @@ export class LoadToppingsSuccess implements Action {
     constructor(public payload: Topping[]) {}
 }
 
-
-export type ToppingsAction = LoadToppings | LoadToppingsFail | LoadToppingsSuccess;
+export type ToppingsAction = LoadToppings | LoadToppingsFail | LoadToppingsSuccess
