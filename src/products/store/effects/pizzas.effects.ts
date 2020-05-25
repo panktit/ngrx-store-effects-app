@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Effect, Actions } from '@ngrx/effects';
 import { of } from 'rxjs/observable/of';
-import * as pizzaActions from '../actions/pizzas.actions';
+import * as pizzaActions from '../actions/pizzas.action';
 import { switchMap, map, catchError } from 'rxjs/operators';
 import { PizzasService } from '../../services';
 

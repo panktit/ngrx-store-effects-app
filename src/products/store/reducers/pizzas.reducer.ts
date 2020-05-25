@@ -1,5 +1,5 @@
 
-import * as fromPizzas from '../actions/pizzas.actions';
+import * as fromPizzas from '../actions/pizzas.action';
 import { Pizza } from 'src/products/models/pizza.model';
 
 export interface PizzaState {
